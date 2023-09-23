@@ -1,4 +1,38 @@
 *{
-    background-color: rgb(59, 58, 58);
+    background-color: rgb(41, 41, 41);
     color: white;
+}
+p{
+    font-size: larger;
+    display: flex;
+}
+nav{
+    display: flex;
+}
+li{
+    display: flex;
+    font-size: 25px;
+    top: 0px;
+    border-width: 5px;
+    border-style:double;
+    border-radius:25px;
+    
+
+}
+#Projects{
+    display: flex;
+    position: absolute;
+    right: 10vw;
+}
+#Home{
+    display: flex;
+    position: absolute;
+    left:10vw;
+}
+#Game{
+    display: flex;
+    position: absolute;
+    right: 50%;
+    
+    
 }

@@ -15,5 +15,40 @@
 #unity-fullscreen-button { cursor:pointer; float: right; width: 38px; height: 38px; background: url('fullscreen-button.png') no-repeat center }
 #unity-warning { position: absolute; left: 50%; top: 5%; transform: translate(-50%); background: white; padding: 10px; display: none }
 *{
-    background-color: gray;
+    background-color: rgb(41, 41, 41);
+    color:white;
+}
+p{
+    font-size: larger;
+    display: flex;
+}
+nav{
+    display: flex;
+}
+li{
+    display: flex;
+    font-size: 25px;
+    top: 0px;
+    border-width: 5px;
+    border-style:double;
+    border-radius:25px;
+    
+
+}
+#Projects{
+    display: flex;
+    position: absolute;
+    right: 10vw;
+}
+#Home{
+    display: flex;
+    position: absolute;
+    left:10vw;
+}
+#Game{
+    display: flex;
+    position: absolute;
+    right: 50%;
+    
+    
 }
