@@ -3,23 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Platformer</title>
+    <title>Unity WebGL Player | Platforms</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
-    <link rel="icon" type="image/x-icon" href="../IMG/Myzt.gif">
-    <nav>
-      <ul>
-        <li id="Home"><a href="../index.html">Home</a></li>
-        <li id="Game"><a href="./game.html">Game</a></li>
-        <li id="Projects"><a href= "./Projects.html">Projects</a></li>
-      </ul>          
-
-  </nav>
   </head>
   <body>
-    <p>If you lose all your lives you can left click in the game window to restart.</p>
-    <p> If you would like to download this game isntead of playing in the browser click the download link below.</p>
-    <a href= "../Platform win.zip"> Download</a>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
@@ -32,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">2D game for 2020 Unity</div>
+        <div id="unity-build-title">Platforms</div>
       </div>
     </div>
     <script>
@@ -69,15 +57,15 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Platformer.loader.js";
+      var loaderUrl = buildUrl + "/WEBGL.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Platformer.data",
-        frameworkUrl: buildUrl + "/Platformer.framework.js",
-        codeUrl: buildUrl + "/Platformer.wasm",
+        dataUrl: buildUrl + "/WEBGL.data",
+        frameworkUrl: buildUrl + "/WEBGL.framework.js",
+        codeUrl: buildUrl + "/WEBGL.wasm",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "2D game for 2020 Unity",
-        productVersion: "1.0",
+        companyName: "Myzt",
+        productName: "Platforms",
+        productVersion: "1.1",
         showBanner: unityShowBanner,
       };
 
