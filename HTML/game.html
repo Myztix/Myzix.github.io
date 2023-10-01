@@ -17,9 +17,10 @@
   </nav>
   </head>
   <body>
-    <p>When you run out of lives left click to restart</p>
+    <p>This is easy mode once you finish it talk to me about normal difficulty</p>
     <p>If you want to download it click the link below <br></p>
     <a href = "../Platforms win.zip">Download</a>
+  </head>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
@@ -69,15 +70,15 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Platforms.loader.js";
+      var loaderUrl = buildUrl + "/Platforms Easy.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Platforms.data",
-        frameworkUrl: buildUrl + "/Platforms.framework.js",
-        codeUrl: buildUrl + "/Platforms.wasm",
+        dataUrl: buildUrl + "/Platforms Easy.data",
+        frameworkUrl: buildUrl + "/Platforms Easy.framework.js",
+        codeUrl: buildUrl + "/Platforms Easy.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Myzt",
         productName: "Platforms",
-        productVersion: "1.1",
+        productVersion: "1.2 Easy",
         showBanner: unityShowBanner,
       };
 
