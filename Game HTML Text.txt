@@ -1,0 +1,14 @@
+<link rel="stylesheet" href="../CSS/index.css">
+    <nav>
+      <ul>
+          <li id="Home"><a href="../index.html">Home</a></li>
+          <li id="Game"><a href="/HTML/game.html">Game</a></li>
+          <li id="Projects"><a href="/HTML/Projects.html">Projects</a></li>
+      </ul>          
+
+  </nav>
+  </head>
+  <body>
+    <p>When you run out of lives left click to restart</p>
+    <p>If you want to download it click the link below <br></p>
+    <a href = "../Platforms win.zip">Download</a>
