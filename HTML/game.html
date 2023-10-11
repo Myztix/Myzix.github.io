@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Platforms Halloween</title>
+    <title>Unity WebGL Player | Halloween Edition</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <link rel="stylesheet" href="../CSS/index.css">
@@ -21,7 +21,7 @@
     <p>If you want to download it click the link below <br></p>
     <a href = "../Platforms win.zip">Download</a>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=1280 height=720 tabindex="-1"></canvas>
+      <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -32,7 +32,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">Platforms Halloween</div>
+        <div id="unity-build-title">Halloween Edition</div>
       </div>
     </div>
     <script>
@@ -75,9 +75,9 @@
         frameworkUrl: buildUrl + "/Platforms Halloween.framework.js.br",
         codeUrl: buildUrl + "/Platforms Halloween.wasm.br",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "Myzt",
-        productName: "Platforms Halloween",
-        productVersion: "1.3 H",
+        companyName: "DefaultCompany",
+        productName: "Halloween Edition",
+        productVersion: "1.0",
         showBanner: unityShowBanner,
       };
 
@@ -106,8 +106,8 @@
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        canvas.style.width = "1280px";
-        canvas.style.height = "720px";
+        canvas.style.width = "960px";
+        canvas.style.height = "600px";
       }
 
       loadingBar.style.display = "block";
