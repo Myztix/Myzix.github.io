@@ -36,3 +36,8 @@ li{
     
     
 }
+#HG{
+    display: flex;
+    position: absolute;
+    right: 25%;
+}
